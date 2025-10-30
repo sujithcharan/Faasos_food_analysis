@@ -1,36 +1,43 @@
-# FASSOS_SQL_ANALYSIS_PROJECT
+# Faasos SQL Analysis Project
 
-Faasos is a popular food delivery company that operates primarily in India. Founded in 2011, Faasos started as a quick-service restaurant chain offering a variety of wraps and other fast-food items. Over time, it transitioned into an online food delivery platform, catering to the increasing demand for convenient food options.
+## About Faasos
 
-Faasos gained prominence by introducing a unique concept of "wraps on wheels" and rapidly expanded its menu to include a diverse range of Indian and international cuisines. The company focused on providing tasty and affordable meals with efficient delivery services.
+Faasos is an Indian food delivery company founded in 2004 and incorporated in 2011 by Jaydeep Barman and Kallol Banerjee. Originally starting as a quick-service restaurant specializing in wraps and kathi rolls, Faasos pioneered the "wraps on wheels" concept and rapidly expanded across multiple Indian cities.[1][2]
 
-In addition to its own kitchens and delivery fleet, Faasos also collaborated with local restaurants to offer a wider selection of dishes. It utilized technology to streamline the ordering process, allowing customers to conveniently place their orders through a user-friendly mobile app or website.
+In 2014, Faasos boldly transitioned to a delivery-first model, shutting down dine-in operations and focusing exclusively on online food delivery through cloud kitchens. The company later rebranded as Rebel Foods to reflect its vision of becoming a global cloud kitchen network. Today, Rebel Foods operates multiple brands including Faasos, Behrouz Biryani, Oven Story, and Mandarin Oak, with over 300 cloud kitchens across 35+ cities in India.[2][5][1]
 
-Faasos experienced significant growth and secured funding from various investors, enabling it to expand its operations across multiple cities in India. It later rebranded itself as Rebel Foods to reflect its broader vision of becoming a global cloud kitchen network.
+## Project Overview
 
-Today, Rebel Foods operates numerous brands, including Faasos, Behrouz Biryani, Oven Story, and Mandarin Oak, among others. These brands cater to different culinary preferences, offering a variety of cuisines and food options to customers. Rebel Foods has revolutionized the food delivery industry in India, leveraging technology, innovation, and a vast network of cloud kitchens to provide a seamless and enjoyable dining experience for its customers
+This project analyzes Faasos' food delivery operations using SQL to extract actionable business insights across order performance, customer behavior, and delivery efficiency. The analysis addresses key business questions to support data-driven decision-making.
 
-In this Fassos Analysis Project I have solved  Business Problems --
+## Business Problems Analyzed
 
-** ROLL_METRICS **
+### Roll Metrics
 
-1. HOW MANY ROLLS WERE ORDERED?
-2. HOW MANY UNIQUE CUSTOMER ORDERS WERE MADE?
-3. HOW MANY SUCCESSFULL ORDERS WERE DELIVERED BY EACH DRIVER?
-4. HOW MANY OF EACH TYPE OF ROLL WAS DELIVERED?
-5. HOW MANY VEG AND NON VEG ROLLS WERE ORDERED BY EACH CUSTOMER?
-6. WHAT WAS THE MAXIMUM NUMBERS OF ROLLS DELIVERED IN A SINGLE ORDER?
-7. FOR EACH CUSTOMER HOW MANY DELIVERED ROLLS HAD ATLEAST ONE CHANGE AND HOW MANY HAD NO CHANGE?
-8. HOW MANY ROLES WERE DELIVERED THAT HAD BOTH EXCLUSIONS AND EXTRAS?
-9. WHAT WAS THE TOTAL NUMBER OF ROLLS ORDERED FOR EACH HOURS OF THE DAY?
-10. WHAT WAS THE NUMBER OF ORDER FOR EACH DAY OF THE WEEK?
+1. How many rolls were ordered in total?
+2. How many unique customer orders were placed?
+3. How many successful orders were delivered by each driver?
+4. What is the distribution of each roll type delivered?
+5. How many vegetarian vs. non-vegetarian rolls did each customer order?
+6. What was the maximum number of rolls delivered in a single order?
+7. For each customer, how many delivered rolls had at least one modification vs. no changes?
+8. How many rolls were delivered with both exclusions and extras?
+9. What was the total number of rolls ordered for each hour of the day?
+10. What was the order volume for each day of the week?
 
-** DRIVER AND CUSTOMER EXPERIENCE **
+### Driver and Customer Experience
 
-1. WHAT WAS THE AVERAGE TIME AVERAGE TIME IN MINUTE IT TOOK FOR EACH DRIVER TO ARRIVE AT THE FASSOS HEADQUATER TO PICK THE ORDER?
-2. IS THERE ANY RELATIONSHIP BETWEEN THE NUMBER OF ROLLS AND HOW LONG THE ORDER TAKES TO PREPARE?
-3. WHAT WAS THE AVERAGE DISTANCE TRAVEL FOR EACH CUSTOMER?
-4. What was the longest and shortest deilivery times for all orders?
-5. WHAT WAS THE AVERAGE SPEED FOR EACH DRIVER FOR EACH DEILIVERY AND DO YOU NOTICE ANY TREND FOR THIS VALUES?
-6. WHAT IS THE SUCCESSFUL PERCENTAGE FOR EACH DRIVER?
+1. What was the average time (in minutes) for each driver to arrive at Faasos headquarters to pick up orders?
+2. Is there a relationship between the number of rolls ordered and preparation time?
+3. What was the average delivery distance for each customer?
+4. What were the longest and shortest delivery times across all orders?
+5. What was the average delivery speed for each driver, and are there any noticeable trends?
+6. What is the successful delivery rate for each driver?
+
+## Tools & Technologies
+
+- **SQL** - Query design and execution
+- **MySQL** - Database management
+- **Data Analysis** - Performance metrics and trend analysis
+- **Business Intelligence** - Operational insights and reporting
 
